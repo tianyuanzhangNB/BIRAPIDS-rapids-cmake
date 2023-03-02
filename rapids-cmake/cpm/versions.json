@@ -61,8 +61,8 @@
     "cuco" : {
       "version" : "0.0.1",
       "git_shallow" : false,
-      "git_url" : "https://github.com/NVIDIA/cuCollections.git",
-      "git_tag" : "2a194c9831324904120113bc18135e7933369ee8"
+      "git_url" : "ssh://git@bitbucket.iluvatar.ai:7999/sol/cuco.git",
+      "git_tag" : "master"
     }
   }
 }
