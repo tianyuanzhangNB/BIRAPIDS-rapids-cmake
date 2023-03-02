@@ -28,7 +28,7 @@
     },
     "rmm" : {
       "version" : "${rapids-cmake-version}",
-      "git_url" : "https://github.com/rapidsai/rmm.git",
+      "git_url" : "ssh://git@bitbucket.iluvatar.ai:7999/sol/ixrmm.git",
       "git_tag" : "branch-${version}"
     },
     "spdlog" : {
