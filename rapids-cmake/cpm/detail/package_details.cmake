@@ -88,6 +88,7 @@ function(rapids_cpm_package_details package_name version_var url_var tag_var sha
   set(${tag_var} ${git_tag} PARENT_SCOPE)
   set(${shallow_var} ${git_shallow} PARENT_SCOPE)
   set(${exclude_from_all_var} ${exclude_from_all} PARENT_SCOPE)
+  set(always_download ON)
   if(DEFINED always_download)
     set(CPM_DOWNLOAD_ALL ${always_download} PARENT_SCOPE)
   endif()
