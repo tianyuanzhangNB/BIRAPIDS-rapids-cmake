@@ -61,8 +61,8 @@ function(rapids_cpm_libcudacxx)
   rapids_cpm_find(libcudacxx ${version} ${ARGN}
                   GLOBAL_TARGETS libcudacxx::libcudacxx
                   CPM_ARGS
-                  GIT_REPOSITORY ${repository}
-                  GIT_TAG ${tag}
+                  GIT_REPOSITORY ssh://git@bitbucket.iluvatar.ai:7999/sol/libcudacxx.git
+                  GIT_TAG master
                   GIT_SHALLOW ${shallow}
                   PATCH_COMMAND ${patch_command}
                   EXCLUDE_FROM_ALL ${exclude})
