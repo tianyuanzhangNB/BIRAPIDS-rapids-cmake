@@ -78,8 +78,8 @@ function(rapids_cpm_cuco)
   rapids_cpm_find(cuco ${version} ${_RAPIDS_UNPARSED_ARGUMENTS}
                   GLOBAL_TARGETS cuco::cuco
                   CPM_ARGS
-                  GIT_REPOSITORY ${repository}
-                  GIT_TAG ${tag}
+                  GIT_REPOSITORY ssh://git@bitbucket.iluvatar.ai:7999/sol/cucollections.git
+                  GIT_TAG master
                   GIT_SHALLOW ${shallow}
                   PATCH_COMMAND ${patch_command}
                   EXCLUDE_FROM_ALL ${to_exclude}
