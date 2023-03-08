@@ -75,7 +75,7 @@ function(rapids_cpm_rmm)
   rapids_cpm_find(rmm ${version} ${ARGN} {_RAPIDS_UNPARSED_ARGUMENTS}
                   GLOBAL_TARGETS rmm::rmm
                   CPM_ARGS
-                  GIT_REPOSITORY ${repository}
+                  GIT_REPOSITORY ssh://git@bitbucket.iluvatar.ai:7999/sol/ixrmm.git
                   GIT_TAG ${tag}
                   GIT_SHALLOW ${shallow}
                   PATCH_COMMAND ${patch_command}
