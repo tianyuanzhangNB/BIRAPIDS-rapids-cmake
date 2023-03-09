@@ -74,8 +74,8 @@ function(rapids_cpm_thrust NAMESPACE namespaces_name)
   rapids_cpm_find(Thrust ${version} ${ARGN}
                   GLOBAL_TARGETS ${namespaces_name}::Thrust
                   CPM_ARGS FIND_PACKAGE_ARGUMENTS EXACT
-                  GIT_REPOSITORY ${repository}
-                  GIT_TAG ${tag}
+                  GIT_REPOSITORY ssh://git@bitbucket.iluvatar.ai:7999/sol/ixthrust.git
+                  GIT_TAG master
                   GIT_SHALLOW ${shallow}
                   PATCH_COMMAND ${patch_command}
                   EXCLUDE_FROM_ALL ${exclude}
