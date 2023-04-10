@@ -34,7 +34,7 @@
     "spdlog" : {
       "version" : "1.8.5",
       "git_url" : "ssh://git@bitbucket.iluvatar.ai:7999/sol/spdlog.git",
-      "git_tag" : "v${version}"
+      "git_tag" : "${version}"
     },
     "Thrust" : {
       "version" : "1.17.2",
