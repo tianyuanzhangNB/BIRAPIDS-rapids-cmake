@@ -27,9 +27,9 @@
       }
     },
     "rmm" : {
-      "version" : "release/v22.12.00",
+      "version" : "22.12.00",
       "git_url" : "ssh://git@bitbucket.iluvatar.ai:7999/sol/ixrmm.git",
-      "git_tag" : "${version}"
+      "git_tag" : "release/v22.12.00"
     },
     "spdlog" : {
       "version" : "1.8.5",
